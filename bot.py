@@ -18,7 +18,7 @@ def is_anybody_has_birthday(names,current):
 session = requests.Session()
 commun = ['4ch','cheerfulcactus','the.facepallm','rus_strany']
 facts = ['fakt1','v5inf','vk.goodfakts','interst_facts']
-login, password = '+79261572269', 'S6C89Q4G'
+login, password = 'тщерштп', 'всыа'
 vk_session = vk_api.VkApi(login, password)
 upload = VkUpload(vk_session)
 block_list = ['165790907']
@@ -64,7 +64,7 @@ for event in longpoll.listen():
                 if event.text.lower() == '/общение':
                     talk_array.remove(event.user_id)
                 else:
-                    CLIENT_ACCESS_TOKEN = '289a95d5bc84431bb1f6b6a10100e805'
+                    CLIENT_ACCESS_TOKEN = 'ывва'
                     AI = apiai.ApiAI(client_access_token=CLIENT_ACCESS_TOKEN)
                     request = AI.text_request()
                     request.lang = 'russian'
