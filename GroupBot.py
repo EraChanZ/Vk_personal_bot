@@ -122,7 +122,7 @@ def make_w(right,pred,pos):
         count += 1
     return final
 sessionu = requests.Session()
-login, password = '+79261572269', 'convneural123'
+login, password = 'login', 'password'
 vk_sessionu = vk_api.VkApi(login, password)
 uploadu = VkUpload(vk_sessionu)
 try:
